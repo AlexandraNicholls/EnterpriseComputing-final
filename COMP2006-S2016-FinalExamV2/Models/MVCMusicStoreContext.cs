@@ -6,7 +6,9 @@
     student number: 200287546
     date: August 18, 2016
     history:
-        added controllers and navigation
+        added controllers and navigation 
+        added comments
+        final commit
 */
 
 namespace COMP2006_S2016_FinalExamV2.Models
