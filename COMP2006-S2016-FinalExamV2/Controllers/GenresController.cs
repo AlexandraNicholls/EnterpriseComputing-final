@@ -1,4 +1,14 @@
-﻿using System;
+﻿/*
+    file: controllers/GenresController.cs
+    Accepts input and performs backend tasks regarding the Genres views
+    author: Alex Nicholls
+    student number: 200287546
+    date: August 18, 2016
+    history:
+        added controllers and navigation
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;

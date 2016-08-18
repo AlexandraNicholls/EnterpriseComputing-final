@@ -1,4 +1,15 @@
-﻿@model IEnumerable<COMP2006_S2016_FinalExamV2.Models.Artist>
+﻿<!--
+    file: views/artists/Index.cshtml
+    Displays a list of all items in the Albums table in the database, with basic 
+    information regarding to each. 
+    author: Alex Nicholls
+    student number: 200287546
+    date: August 18, 2016
+    history:
+        added controllers and navigation
+-->
+
+@model IEnumerable<COMP2006_S2016_FinalExamV2.Models.Artist>
 
 @{
     ViewBag.Title = "Index";
@@ -23,9 +34,7 @@
             @Html.DisplayFor(modelItem => item.Name)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ArtistId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ArtistId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ArtistId })
+            @Html.ActionLink("Details", "Details", new { id=item.ArtistId }) 
         </td>
     </tr>
 }

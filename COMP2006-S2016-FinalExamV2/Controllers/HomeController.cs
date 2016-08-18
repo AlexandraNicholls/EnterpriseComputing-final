@@ -1,4 +1,14 @@
-﻿using System;
+﻿/*
+    file: controllers/HomeController.cs
+    Accepts input and performs backend tasks regarding the Home views
+    author: Alex Nicholls
+    student number: 200287546
+    date: August 18, 2016
+    history:
+        added controllers and navigation
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
